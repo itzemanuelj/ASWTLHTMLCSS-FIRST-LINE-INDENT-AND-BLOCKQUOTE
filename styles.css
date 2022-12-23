@@ -1,0 +1,17 @@
+p {
+    text-indent: 1em;
+}
+
+/*** Create a class of paragraphs named "special" that indents the first line 1.5 ems. */
+p.special {
+    text-indent: 1.5em;
+}
+
+/*** 9. Style paragraphs explicitly so they indent to the default, that is, no indent. */
+
+p {
+    text-indent: 1.5em;
+}
+blockquote p.blckqte {
+    text-indent: 2em;
+}
